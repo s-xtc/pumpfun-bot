@@ -97,4 +97,4 @@ If there is an issue with executing a trade (e.g., invalid API key, network issu
 ---
 
 For further customization or troubleshooting, refer to the comments in the code or contact support.
-
+If you want to donate my sol adress is: G1SJckY7NqiMYvDWLPDQu9z84QtueZjD6qDPASAux21r
