@@ -1,4 +1,4 @@
-# **PumpPortal Automated Trading System**
+# **PumpFun Automated Trading System**
 
 This script automates cryptocurrency trading through a WebSocket interface, allowing for auto-buy and auto-sell functionality. It can be configured to monitor the market for new tokens and perform automated trades based on predefined rules.
 
@@ -19,8 +19,8 @@ This script automates cryptocurrency trading through a WebSocket interface, allo
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/pumpportal-automated-trading.git
-   cd pumpportal-automated-trading
+   git clone https://github.com/s-xtc/pumpfun-bot.git
+   cd pumpfun-bot
    ```
 
 2. Install the required libraries using `pip`:
@@ -32,7 +32,7 @@ This script automates cryptocurrency trading through a WebSocket interface, allo
 
 Before running the script, you need to configure it with your API key and other settings.
 
-1. Open the script `pumpportal_trading.py` and update the following configuration values in the `config` dictionary:
+1. Open the script `trader.py` and update the following configuration values in the `config` dictionary:
 
    - `API_KEY`: Replace `"api-key"` with your actual API key.
    - `TRADE_URL`: URL for making trade requests (usually provided by your trading API).
@@ -49,13 +49,13 @@ Before running the script, you need to configure it with your API key and other 
 To start the script, execute the following command:
 
 ```bash
-python pumpportal_trading.py
+python trader.py
 ```
 
 Upon running the script, you will be prompted with the following menu:
 
 ```
-PumpPortal Automated Trading System
+PumpFun Automated Trading System
 1. Start market monitoring with auto-buy and auto-sell
 3. Exit
 ```
