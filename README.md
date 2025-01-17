@@ -8,6 +8,7 @@ This script automates cryptocurrency trading through a WebSocket interface, allo
 - Real-time monitoring of the market via WebSocket.
 - Configurable slippage, priority fee, and other settings for trades.
 
+
 ## **Requirements**
 - Python 3.8+
 - `requests` library
