@@ -28,13 +28,6 @@ This script automates cryptocurrency trading through a WebSocket interface, allo
    pip install -r requirements.txt
    ```
 
-   The `requirements.txt` file should contain the following dependencies:
-   ```
-   requests
-   websockets
-   rich
-   ```
-
 ## **Configuration**
 
 Before running the script, you need to configure it with your API key and other settings.
